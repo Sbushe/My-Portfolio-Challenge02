@@ -129,4 +129,42 @@ header nav ul li a:hover {
     line-height: 1.6;
     width: 90%
 }
+/* about me section styling end */
 
+/* my work section styling start */
+.my-work {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+
+.my-work h2 {
+    color: var(--secondary);
+}
+.projects-grid-wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.project {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
