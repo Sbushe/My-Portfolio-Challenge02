@@ -1,3 +1,10 @@
+/* color variables for easier to remember names */
+:root {
+    --primary: #55565c;
+    --secondary: #f0f1f5;
+    --pop: #20a8a8;
+}
+
 /* remove default CSS styling */
 * {
     margin: 0;
@@ -108,3 +115,18 @@ header nav ul li a:hover {
 .title h2 {
     font-size: 48px;
 }
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%
+}
+
