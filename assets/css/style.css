@@ -39,6 +39,7 @@ header h1 {
     background-color: var(--secondary);
     padding: 10px;
     border: 5px solid var(--pop);
+    text-align: center;
 }
 
 header a {
@@ -89,17 +90,15 @@ header nav ul li a:hover {
 }
 
 .hero .quote {
-    font-size: 35px;
     display: flex;
     justify-content: end;
     text-align: right;
-    color: lightgray;
-}
-
-.hero .quote #quote-text {
+    box-shadow: -23px 25px 36px -39px rgba(0,0,0,0.5);
     font-size: 48px;
     color: #20a8a8;
+
 }
+
 /* hero styling end */
 
 /* utility class styling start */
@@ -116,6 +115,9 @@ header nav ul li a:hover {
     font-size: 48px;
 }
 
+/* utility class styling end */
+
+/* about me section styling start */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -127,7 +129,7 @@ header nav ul li a:hover {
     font-size: 20px;
     padding: 0 30px;
     line-height: 1.6;
-    width: 90%
+    width: 90%;
 }
 /* about me section styling end */
 
@@ -142,6 +144,7 @@ header nav ul li a:hover {
 .my-work h2 {
     color: var(--secondary);
 }
+
 .projects-grid-wrapper {
     width: 80%;
     height: 500px;
@@ -168,6 +171,7 @@ header nav ul li a:hover {
     background-position: center;
     opacity: 0.5;
 }
+
 .project:hover {
     opacity: 1.0;
 }
@@ -202,7 +206,6 @@ header nav ul li a:hover {
     color: var(--primary);
     padding: 10px;
 }
-
 /* my work section styling end */
 
 /* contact me section styling start */
@@ -254,6 +257,7 @@ footer ul li a:hover {
     border-radius: 15px;
 }
 /* contact me section styling end */
+
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
     .hero .quote {
