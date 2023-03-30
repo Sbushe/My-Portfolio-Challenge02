@@ -20,3 +20,91 @@ header {
     flex-wrap: wrap;
     padding: 20px;
 }
+
+header div {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    color: var(--pop);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 10px;
+    border: 5px solid var(--pop);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul li a {
+    padding: 8px;
+    font-size: 28px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: var(--pop);
+    color: var(--primary);
+    border-radius: 15px;
+}
+
+/* header styling end */
+
+
+/* hero styling start */
+.hero {
+    background-image: url("../images/5651978.jpg");
+    height: 600px;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero img {
+    height: 400px;
+}
+
+.hero .quote {
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color: lightgray;
+}
+
+.hero .quote #quote-text {
+    font-size: 48px;
+    color: #20a8a8;
+}
+/* hero styling end */
+
+/* utility class styling start */
+.title {
+    border-right: 5px solid var(--pop);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2 {
+    font-size: 48px;
+}
