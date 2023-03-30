@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Stephens | Portfolio</title>
-        <link href="/Homework/My-Portfolio-Challenge02/assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
     <body>
@@ -29,12 +29,14 @@
             </nav>
         </header>
 
+        <!-- hero image section start -->
+        <section class="hero">
             <div>
-                <img src="./assets/images/IMG-38.jpg" alt="An image of Stephen Bushe">
+                <img src="./assets/images/IMG-3810.jpg" alt="An image of Stephen Bushe">
             </div>
-            <div>
+            <div class="quote">
                 <blockquote>
-                    <p>
+                    <p id="quote-text">
                         Welcome to my journey as a <br> Full stack Website Developer.
                     </p>
                   
@@ -42,9 +44,9 @@
             </div>
         </section>
 
-       
-        <section>
-            <div>
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
                 <h2>About Me</h2>
             </div>
             
@@ -57,38 +59,38 @@
             </div>
         </section>
 
-        
-        <section>
-            <div><h2>My Work</h2></div>
-            <div>
-                <div>
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "projects-grid-wrapper">
+                <div class="projects-grid">
 
-                    <a href="https://sbushe.github.io/Hoirseon-Code-Refactor/">
-                        
+                    <a href="https://sbushe.github.io/Hoirseon-Code-Refactor/" class="project hoirseon-code-refactor">
+                        <div class="project-label">
                             <h3>Hoirseon</h3>
                             <p>HTML/CSS Refactor</p>
-                    
+                        </div>
                     </a>
-                    <a href="#">
-                        <div>
+                    <a href="#" target="_blank" class="project project2">
+                        <div class="project-label">
                             <h3>Project 2</h3>
                             <p>Coming Soon</p>
                         </div>
                     </a>
-                    <a href="#">
-                        <div>
+                    <a href="#" target="_blank" class="project project3">
+                        <div class="project-label">
                             <h3>Project 3</h3>
                             <p>Coming Soon</p>
                         </div>
                     </a>
-                    <a href="#">
-                        <div>
+                    <a href="#" target="_blank" class="project project4">
+                        <div class="project-label">
                             <h3>Project 4</h3>
                             <p>Coming Soon</p>
                         </div>
                     </a>
-                    <a href="#">
-                        <div>
+                    <a href="#" target="_blank"  class="project project5">
+                        <div class="project-label">
                             <h3>Project 5</h3>
                             <p>Coming Soon</p>
                         </div>
@@ -97,11 +99,11 @@
             </div>
         </section>
 
-    
-        <footer>
-            <div><h2>Contact Me</h2></div>
-            <div >
-                <div>
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
                     <ul>
                         <li>
                             <a href="Stephencbushe@gmail.com">Email</a>
