@@ -23,6 +23,10 @@ https://sbushe.github.io/My-Portfolio-Challenge02/
 ![image](https://user-images.githubusercontent.com/117788513/229004513-1667a53c-ca07-4ad6-9e84-e19bd31ad991.png)
 ![image](https://user-images.githubusercontent.com/117788513/229004924-d8fd31b4-dbeb-484f-a23a-9c540094a007.png)
 
+## Contributions
+
+* Portfolio HTML and CSS style sheet page made and edited by Stephen Bushe
+* [S_Bushe on Github](https://github.com/Sbushe)
 
 
 
